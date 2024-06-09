@@ -1,0 +1,49 @@
+.heroFrame div.activeFrame {
+    opacity: 1;
+}
+
+.sub_heading.activeFrame .heading.activeFrame .bodyPara.activeFrame{
+    transform: translateY(0px);
+}
+
+.sub_heading.hiddenFrame{
+    transform: translateY(30px);
+}
+
+.heading.hiddenFrame{
+    transform: translateY(-30px);
+}
+
+.bodyPara.activeFrame{
+    transform: translateX(0px);
+}
+
+.bodyPara.hiddenFrame{
+    transform: translatex(-100vw);
+}
+
+.heroFrame div.hiddenFrame{
+    opacity: 0;
+}
+
+.heroFrame .carousal_button .activeFrame{
+    background-color: red;
+    width: 2rem;
+}
+
+.heroFrame .carousal_button .hiddenFrame{
+    background-color: white;
+}
+
+.slick-slide > div{
+    margin: 0 5px;
+}
+
+.slick-dots li button:before{
+    font-size: 10px !important;
+}
+
+.slick-dots li.slick-active button:before{
+    color: red !important;
+}
+
